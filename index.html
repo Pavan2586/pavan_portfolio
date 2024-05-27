@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- sldiderr -->
+    <style>
+        .animated-img {
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 4s linear forwards;
+        }
+
+        .animated-skills {
+            position: relative;
+            opacity: 0;
+            animation: moveleft 4s linear forwards;
+        }
+
+        .animatedcard {
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 3s linear forwards;
+        }
+
+        @keyframes moveleft {
+            0% {
+                opacity: 0;
+                transform: translateX(25px);
+            }
+
+            25% {
+                opacity: 0.5;
+                transform: translateX(50pxpx);
+            }
+
+            50% {
+                opacity: 0.5;
+                transform: translateX(75px);
+            }
+
+            75% {
+                opacity: 0.75;
+                transform: translateX(100px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateX(150px);
+            }
+
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(100px);
+            }
+
+            50% {
+                opacity: 0.5;
+                transform: translateY(25px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+
+    <title>Responsive Navigation Menu Bar</title>
+</head>
+
+<body style="background-color: #2d2e32;">
+    <nav>
+        <div class="nav-bar">
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">pavan</a></span>
+                    <i class='bx bx-x sidebarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <img class="img1-class" src="https://res.cloudinary.com/dta70snth/image/upload/v1698853048/pavanlogo_ounfsu.jpg" alt="img1-class">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                </ul>
+            </div>
+
+            <div class="contact-us-btn">
+                <a href="contact.html" id="conbtn"> Contact Us</a>
+                <i class='bx bx-menu sidebarOpen'></i>
+            </div>
+
+        </div>
+    </nav>
+    <!-- header start -->
+    <div class="header-section" id="home">
+        <div class="left-section">
+            <!-- <img class="animated-img" src="https://res.cloudinary.com/dta70snth/image/upload/c_scale,h_269,q_97/v1698852196/IMG_20230523_113344_816_ouc2ap.jpg" alt="Header Image"> -->
+            <img class="animated-img" src="https://res.cloudinary.com/dta70snth/image/upload/v1716790186/IMG_2393_mjcj0t_ebfcd4.jpg" alt="Header Image" >
+        </div>
+        <div class="right-section">
+            <div class="intro animatedcard">
+                <h2 style="color: #64f4ab;">--Introduction</h2>
+            </div>
+            <div class="main-text">
+                <h1>
+
+                    Hello<br>
+                    I'm Pavan <Br>
+                    Thineti
+                </h1>
+            </div>
+            <div class="paragraph animatedcard">
+                <p>Since beginning my journey as a freelance designer nearby 1 years <br>
+                    ago, I've started work for agencies, consulted for startups, <br>
+                    and collaborated with talented people to create web pages.</p>
+            </div>
+        </div>
+    </div>  
+    <section class="skills" id="skills">  
+        <div class="container">
+            <div style="padding: 9% 5em;" class="content-section">
+                <h1 style="color: #64f4ab;">--My Skills</1>
+                <h1 style="padding:20px 1.5em; font-size: 36px;">Why Hire Me For the Next Project?</h1>
+                <p style="padding: 25px ; font-size: larger  ;">The technological revolution is changing aspects of
+                    our lives, and the fabric of society itself. It's also changing the way we learn and what we learn.
+                    Factual knowledge is less prized when everything you ever need to know can be found on your phone.
+                    There's no imperative to be an expert at doing everything when you can collaborate with specialists.
+                    and my skills are:
+                </p>
+            <div style="padding:10px" class="content-section">
+                <ul>python</ul>
+                <ul>java</ul>
+                <ul>javaScript</ul>
+                <ul>HTML</ul>
+                <ul>CSS</ul>
+                <ul>Web development</ul>
+                <ul>android development</ul>
+            </div>
+                <div class="cv-button" style="padding: 10px;">
+                    <a href="https://drive.google.com/file/d/1Vurx2whD0V41QZgtaQOl5YKB2u8WpTK8/view?usp=sharing">Download CV</a>
+                </div>
+            </div>
+            <div class="cards-section">
+                <div class="card  card1 anime" style="background-color: #2d2e32; border: none;">
+                    <!-- Card 1 content goes here -->
+                    <div style="width: 300px; background-color: #25262a; padding: 20px; border-radius: 44px;">
+                        <div style="text-align: center; margin-left: 30%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="100" height="100">
+                                <circle cx="50" cy="50" r="40" fill="#2d2e32" stroke="#64f4ab" stroke-width="2" />
+                                <g transform="translate(32, 32)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="37" height="38.134" viewBox="0 0 37 38.134">
+                                        <defs>
+                                            <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1"
+                                                gradientUnits="objectBoundingBox">
+                                                <stop offset="0" stop-color="#64f4ab" />
+                                                <stop offset="1" stop-color="#327a56" />
+                                            </linearGradient>
+                                        </defs>
+                                        <g id="product_design_icon" data-name="product design - icon"
+                                            transform="translate(-27.328 -15.227)">
+                                            <path id="Path_58" data-name="Path 58"
+                                                d="M176.63,132.33a1.044,1.044,0,0,0-.63.967v11.652a1.059,1.059,0,0,0,.629.968l9.533,4.237a1.055,1.055,0,0,0,.861,0h0l9.533-4.237a1.059,1.059,0,0,0,.629-.968V133.3a1.044,1.044,0,0,0-.63-.967h0l-9.533-4.237a1.061,1.061,0,0,0-.861,0l-9.533,4.237Zm8.9,15.226-7.415-3.3v-9.333l7.415,3.3Zm9.533-3.3-7.415,3.3v-9.333l7.415-3.3Zm-8.474-14.041,6.925,3.078-6.925,3.078-6.925-3.078Z"
+                                                transform="translate(-140.794 -105.358)" fill="url(#linear-gradient)" />
+                                            <path id="Path_59" data-name="Path 59" d="M248,320h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -271.936)" fill="url(#linear-gradient)" />
+                                            <path id="Path_60" data-name="Path 60" d="M248,72h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -56.773)" fill="url(#linear-gradient)" />
+                                            <path id="Path_61" data-name="Path 61" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(27.328 25.723) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_76" data-name="Path 76" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(58.981 42.766) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_62" data-name="Path 62" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(58.897 25.915) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_63" data-name="Path 63" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(27.328 42.86) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                        </g>
+                                    </svg>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3 style="text-align: center; margin-top: 20px; color: #ffffff; font-family:monospace;">log_in page</h3>
+                        <p style="text-align: center; color: #E8E8E8;font-family:monospace;">The technological
+                            revolution is changing aspect</p>
+                    </div>
+                </div>
+                <div class="card  card2 anime" style="background-color: #2d2e32; border: none;">
+                    <!-- Card 2 content goes here -->
+                    <div style="width: 300px; background-color: #25262a; padding: 20px; border-radius: 44px;">
+                        <div style="text-align: center; margin-left: 30%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="100" height="100">
+                                <circle cx="50" cy="50" r="40" fill="#2d2e32" stroke="#64f4ab" stroke-width="2" />
+                                <g transform="translate(32, 32)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="37" height="38.134" viewBox="0 0 37 38.134">
+                                        <defs>
+                                            <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1"
+                                                gradientUnits="objectBoundingBox">
+                                                <stop offset="0" stop-color="#64f4ab" />
+                                                <stop offset="1" stop-color="#327a56" />
+                                            </linearGradient>
+                                        </defs>
+                                        <g id="product_design_icon" data-name="product design - icon"
+                                            transform="translate(-27.328 -15.227)">
+                                            <path id="Path_58" data-name="Path 58"
+                                                d="M176.63,132.33a1.044,1.044,0,0,0-.63.967v11.652a1.059,1.059,0,0,0,.629.968l9.533,4.237a1.055,1.055,0,0,0,.861,0h0l9.533-4.237a1.059,1.059,0,0,0,.629-.968V133.3a1.044,1.044,0,0,0-.63-.967h0l-9.533-4.237a1.061,1.061,0,0,0-.861,0l-9.533,4.237Zm8.9,15.226-7.415-3.3v-9.333l7.415,3.3Zm9.533-3.3-7.415,3.3v-9.333l7.415-3.3Zm-8.474-14.041,6.925,3.078-6.925,3.078-6.925-3.078Z"
+                                                transform="translate(-140.794 -105.358)" fill="url(#linear-gradient)" />
+                                            <path id="Path_59" data-name="Path 59" d="M248,320h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -271.936)" fill="url(#linear-gradient)" />
+                                            <path id="Path_60" data-name="Path 60" d="M248,72h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -56.773)" fill="url(#linear-gradient)" />
+                                            <path id="Path_61" data-name="Path 61" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(27.328 25.723) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_76" data-name="Path 76" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(58.981 42.766) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_62" data-name="Path 62" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(58.897 25.915) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_63" data-name="Path 63" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(27.328 42.86) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                        </g>
+                                    </svg>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3 style="text-align: center; margin-top: 20px; color: #ffffff; font-family:monospace;">web_calculator</h3>
+                        <p style="text-align: center; color: #E8E8E8;font-family:monospace;">The technological
+                            revolution is changing aspect</p>
+                    </div>
+
+
+                </div>
+                <div class="card  card3 anime" style="background-color: #2d2e32; border: none;">
+                    <!-- Card 3 content goes here -->
+                    <div style="width: 300px; background-color: #25262a; padding: 20px; border-radius: 44px;">
+                        <div style="text-align: center; margin-left: 30%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="100" height="100">
+                                <circle cx="50" cy="50" r="40" fill="#2d2e32" stroke="#64f4ab" stroke-width="2" />
+                                <g transform="translate(32, 32)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="37" height="38.134" viewBox="0 0 37 38.134">
+                                        <defs>
+                                            <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1"
+                                                gradientUnits="objectBoundingBox">
+                                                <stop offset="0" stop-color="#64f4ab" />
+                                                <stop offset="1" stop-color="#327a56" />
+                                            </linearGradient>
+                                        </defs>
+                                        <g id="product_design_icon" data-name="product design - icon"
+                                            transform="translate(-27.328 -15.227)">
+                                            <path id="Path_58" data-name="Path 58"
+                                                d="M176.63,132.33a1.044,1.044,0,0,0-.63.967v11.652a1.059,1.059,0,0,0,.629.968l9.533,4.237a1.055,1.055,0,0,0,.861,0h0l9.533-4.237a1.059,1.059,0,0,0,.629-.968V133.3a1.044,1.044,0,0,0-.63-.967h0l-9.533-4.237a1.061,1.061,0,0,0-.861,0l-9.533,4.237Zm8.9,15.226-7.415-3.3v-9.333l7.415,3.3Zm9.533-3.3-7.415,3.3v-9.333l7.415-3.3Zm-8.474-14.041,6.925,3.078-6.925,3.078-6.925-3.078Z"
+                                                transform="translate(-140.794 -105.358)" fill="url(#linear-gradient)" />
+                                            <path id="Path_59" data-name="Path 59" d="M248,320h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -271.936)" fill="url(#linear-gradient)" />
+                                            <path id="Path_60" data-name="Path 60" d="M248,72h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -56.773)" fill="url(#linear-gradient)" />
+                                            <path id="Path_61" data-name="Path 61" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(27.328 25.723) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_76" data-name="Path 76" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(58.981 42.766) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_62" data-name="Path 62" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(58.897 25.915) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_63" data-name="Path 63" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(27.328 42.86) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                        </g>
+                                    </svg>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3 style="text-align: center; margin-top: 20px; color: #ffffff; font-family:monospace;">Portfolio</h3>
+                        <p style="text-align: center; color: #E8E8E8;font-family:monospace;">The technological
+                            revolution is changing aspect</p>
+                    </div>
+
+
+                </div>
+                <div class="card  card4 anime" style="background-color: #2d2e32;border: none;">
+                    <!-- Card 4 content goes here -->
+                    <div style="width: 300px; background-color: #25262a; padding: 20px; border-radius: 44px;">
+                        <div style="text-align: center; margin-left: 30%;">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="100" height="100">
+                                <circle cx="50" cy="50" r="40" fill="#2d2e32" stroke="#64f4ab" stroke-width="2" />
+                                <g transform="translate(32, 32)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="37" height="38.134" viewBox="0 0 37 38.134">
+                                        <defs>
+                                            <linearGradient id="linear-gradient" x1="0.5" zx2="0.5" y2="1"
+                                                gradientUnits="objectBoundingBox">
+                                                <stop offset="0" stop-color="#64f4ab" />
+                                                <stop offset="1" stop-color="#327a56" />
+                                            </linearGradient>
+                                        </defs>
+                                        <g id="product_design_icon" data-name="product design - icon"
+                                            transform="translate(-27.328 -15.227)">
+                                            <path id="Path_58" data-name="Path 58"
+                                                d="M176.63,132.33a1.044,1.044,0,0,0-.63.967v11.652a1.059,1.059,0,0,0,.629.968l9.533,4.237a1.055,1.055,0,0,0,.861,0h0l9.533-4.237a1.059,1.059,0,0,0,.629-.968V133.3a1.044,1.044,0,0,0-.63-.967h0l-9.533-4.237a1.061,1.061,0,0,0-.861,0l-9.533,4.237Zm8.9,15.226-7.415-3.3v-9.333l7.415,3.3Zm9.533-3.3-7.415,3.3v-9.333l7.415-3.3Zm-8.474-14.041,6.925,3.078-6.925,3.078-6.925-3.078Z"
+                                                transform="translate(-140.794 -105.358)" fill="url(#linear-gradient)" />
+                                            <path id="Path_59" data-name="Path 59" d="M248,320h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -271.936)" fill="url(#linear-gradient)" />
+                                            <path id="Path_60" data-name="Path 60" d="M248,72h2.119v5.3H248Z"
+                                                transform="translate(-203.261 -56.773)" fill="url(#linear-gradient)" />
+                                            <path id="Path_61" data-name="Path 61" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(27.328 25.723) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_76" data-name="Path 76" d="M0,0H2.119V4.916H0Z"
+                                                transform="translate(58.981 42.766) rotate(-64.46)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_62" data-name="Path 62" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(58.897 25.915) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                            <path id="Path_63" data-name="Path 63" d="M0,0H4.916V2.119H0Z"
+                                                transform="translate(27.328 42.86) rotate(-25.54)"
+                                                fill="url(#linear-gradient)" />
+                                        </g>
+                                    </svg>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3 style="text-align: center; margin-top: 20px; color: #ffffff; font-family:monospace;">Product
+                            Design</h3>
+                        <p style="text-align: center; color: #E8E8E8;font-family:monospace;">The technological
+                            revolution is changing aspect</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- skills details section  -->
+
+    <script>
+        $(document).ready(function () {
+            $('.slider').slick({
+                arrows: false,
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
+        });
+    </script>
+    <h1 style="color: #64f4ab; padding-left: 5%;">--Projects</h1>
+    <div class="header-section1" id="Projects">
+        <div class="left-section1">
+            <!-- <img class="animated-img" src="https://res.cloudinary.com/dta70snth/image/upload/v1716791413/Screenshot_2024-05-11_112911_efnyr7.png"> -->
+            <img class="animated-img" src="https://res.cloudinary.com/dta70snth/image/upload/v1716791413/Screenshot_2024-05-11_112911_efnyr7.png" alt="Header Image" >
+        </div>
+        <div class="right-section1">
+            <div class="intro animatedcard">
+                <h2 style="color: #64f4ab;">Projects-1</h2>
+            </div>
+            <div class="paragraph animatedcard">
+                <p>Log-in page</p>
+                <p>I have created a web page which refers to the log_in credentials and other events with 
+                    the help of HTML and CSS. WITH the help of HTML. I have created a user 
+                    interface and I've used CSS to make more interactive user interface.</p>
+
+                <a href="https://genuine-axolotl-58311a.netlify.app">click here</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-section1" id="Projects">
+        <div class="left-section1">
+            <!-- <img class="animated-img" src="https://res.cloudinary.com/dta70snth/image/upload/v1716791468/Screenshot_2023-12-08_125008_gmhbyg.png"> -->
+            <img class="animated-img" src="https://res.cloudinary.com/dta70snth/image/upload/v1716791468/Screenshot_2023-12-08_125008_gmhbyg.png" alt="Header Image" >
+        </div>
+        <div class="right-section1">
+            <div class="intro animatedcard">
+                <h2 style="color: #64f4ab;">Projects--2</h2>
+            </div>
+            <div class="paragraph animatedcard">
+                <p>crop yield prediction</p>
+                <p>Agriculture growth mainly depends on diverse soil parameters, 
+                    namely Nitrogen, Phosphorus, Potassium, Crop rotation, Soil moisture, pH, 
+                    surface temperature and weather aspects like temperature, rainfall, etc. 
+                    Technology will prove to be beneficial to agriculture which will increase
+                    crop productivity resulting in better yields to the farmer. The proposed 
+                    project provides a solution for Smart Agriculture by monitoring the 
+                    agricultural field which can assist the farmers in increasing productivity
+                     to a great extent.in it predicts the crop and yield.</p>
+            </div>
+        </div>
+    </div>
+    <div class="header-section1" id="Projects">
+        <div class="left-section1">
+            <!-- <img class="animated-img" src="https://res.cloudinary.com/dta70snth/image/upload/v1716791447/Screenshot_2023-06-06_222229_hjlxho.png"> -->
+            <img class="animated-img" src="https://res.cloudinary.com/dta70snth/image/upload/v1716791447/Screenshot_2023-06-06_222229_hjlxho.png" alt="Header Image" >
+        </div>
+        <div class="right-section1">
+            <div class="intro animatedcard">
+                <h2 style="color: #64f4ab;">Projects--3</h2>
+            </div>
+            <div class="paragraph animatedcard">
+                <p>Fashion MNIST data classification</p>
+                <p>Utilizing Python as the programming language, this research employs Convolutional Neural Networks (CNNs), a class of deep learning models particularly effective in image recognition tasks. The methodology involves preprocessing the data, building and training the CNN model, and evaluating its performance based on accuracy and loss metrics.
+
+                    The model achieved a classification accuracy exceeding 90%, demonstrating the effectiveness of CNNs in handling image data. Techniques such as data augmentation and dropout were used to enhance the model's performance and mitigate overfitting. The results underscore the potential of deep learning in automating fashion item classification, paving the way for applications in various domains including e-commerce and inventory management.</p>
+            </div>
+        </div>
+    </div>
+    <div class="header-section1" id="Projects">
+        <div class="left-section1">
+            <!-- <img class="animated-img" src="https://res.cloudinary.com/dta70snth/image/upload/v1716791486/Screenshot_2024-04-18_212053_i8zek2.png"> -->
+            <img class="animated-img" src="https://res.cloudinary.com/dta70snth/image/upload/v1716791486/Screenshot_2024-04-18_212053_i8zek2.png" alt="Header Image">
+        </div>
+        <div class="right-section1">
+            <div class="intro animatedcard">
+                <h2 style="color: #64f4ab;">Projects--4</h2>
+            </div>
+            <div class="paragraph animatedcard">
+                <p>Troffic violation Proctoring system helmet detection YOLO v3</p>
+                <p>The Indian Road scenario is notorious for its high rate of two-wheeler traffic violations.These violations not only pose a risk to the violators themselves but also to other commuters on the road. Indian roads are among the most dangerous in the world, with high rates of accidents and fatalities. Two-wheeler vehicles are a major contributor to traffic violations and accidents, with helmet less riding, signal jumping,wrong side driving, and over-speeding being common violations.in this system it detects the rider who are not have the helmet while riding the bike.</p>
+            </div>
+        </div>
+    </div>
+    <div class="header-section1" id="Projects">
+        <div class="left-section1">
+            <!-- <img class="animated-img" src="https://res.cloudinary.com/dta70snth/image/upload/v1716798294/Screenshot_2024-05-27_135356_if2sgp.png"> -->
+            <img class="animated-img" src="https://res.cloudinary.com/dta70snth/image/upload/v1716798294/Screenshot_2024-05-27_135356_if2sgp.png" alt="Header Image" >
+        </div>
+        <div class="right-section1">
+            <div class="intro animatedcard">
+                <h2 style="color: #64f4ab;">Projects--5</h2>
+            </div>
+            <div class="paragraph animatedcard">
+                <p>Calculator design</p>
+                <p>I have created a design of calculator with the help of HTML,JavaScript nad CSS and converted it into a web page which makes easy to access on inernet</p>
+                <a href="https://6653f06b165fa1142fe8514a--luxury-snickerdoodle-37a602.netlify.app/">click here</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer section  -->
+
+
+    <div class="footer1" style="display: flex; flex-direction: row; align-items: center;padding-left: 45%;">
+        
+        <div class="social-inf">
+            <a href="https://www.instagram.com/mr_pa1__reddy">
+                <img src="https://res.cloudinary.com/dta70snth/image/upload/c_scale,h_57/v1698860147/600px-Instagram_icon_lydyzm.png">
+            </a>
+            <a href="https://www.facebook.com/pavan.thineti">
+                <img src="https://res.cloudinary.com/dta70snth/image/upload/c_scale,h_58,w_58/v1698860013/Facebook_Logo_2023_mtihe9.png">
+            </a>
+            <a href="https://www.linkedin.com/in/thineti-pavan-kumar-68aa66308">
+                <img src="https://res.cloudinary.com/dta70snth/image/upload/c_scale,h_65,w_65/swxsso8qautbb3oszwy2.jpg">
+            </a>
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+    <script>
+
+
+
+        const intersectionCallback = (entries) => {
+            for (const entry of entries) { // Loop over all elements that either enter or exit the view.
+                if (entry.isIntersecting) { // This is true when the element is in view.
+                    entry.target.classList.add('animatedcard'); // Add a class.
+                }
+            }
+        }
+
+        /**
+         * Create a observer and use the instersectionCallback as 
+         * the instructions for what to do when an element enters
+         * or leaves the view
+         */
+        const observer = new IntersectionObserver(intersectionCallback);
+
+        /**
+         * Get all .item elements and loop over them.
+         * Observe each individual item.
+         */
+        const items = document.querySelectorAll('.anime');
+        for (const item of items) {
+            observer.observe(item);
+            console.log("observ");
+        }
+
+    </script>
+
+    <script>
+        $(window).on('scroll', function () {
+            var st = $(this).scrollTop(),
+                vh = $(this).height(),
+                $counter = $('.wrapperx'),
+                ct = $counter.offset().top;
+            if ((st + vh) > ct) {
+                // #counter is in the viewport
+
+                let valueDisplays = document.querySelectorAll(".num");
+                let interval = 100;
+
+                valueDisplays.forEach((valueDisplay) => {
+                    let startValue = 0;
+                    let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+                    let duration = Math.floor(interval / endValue);
+                    let counter = setInterval(function () {
+                        startValue += 1;
+                        valueDisplay.textContent = startValue;
+                        if (startValue == endValue) {
+                            clearInterval(counter);
+                        }
+                    }, duration);
+                });
+            }
+        })</script>
+    
+
+</body>
+</body>
+
+</html>
